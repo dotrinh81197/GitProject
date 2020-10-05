@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE FORM</title>
+    <link rel="stylesheet" href="simpleform.css" type="text/css">
+</head>
+<body>
+    <form action="simpleform.html" method="GET" class="fontchu">
+        <h2>Order Form </h2>
+        <p>What would you like to buy?</p>
+        <select name="od" id="">
+            <option value="order">Dress</option>
+            <option value="order">Shoes</option>
+            <option value="order">Jean</option>
+        </select>
+        <p>How many do you like to order</p>
+        <input type="radio" name="price" value="1">1-10$ <br>
+        <input type="radio" name="price" value="2">2-20$ <br>
+        <input type="radio" name="price" value="3">3-25$ <br>
+        <p>Name <span style="color: red;">*</span></p>
+        <table>
+            <tr>
+                <td><input type="text" name="firstname" value="" placeholder="First Name" required></td>
+                <td><input type="text" name="lastname" value="" placeholder="Last Name" required></td>
+                
+            </tr>
+        </table>
+        <p>Email <span style="color: red;">*</span></p>
+        <input type="email" name="email" value="" required>
+        <p>Phone Number</p>
+        <input type="tel" name="phonenum" value="" pattern="[0-9]{3}" size="5px"> - 
+        <input type="tel" name="phonenum" value="" pattern="[0-9]{4}" size="5px"> -
+        <input type="tel" name="phonenum" value="" pattern="[0-9]{3}" size="5px">
+        <p><input type="Submit" name="submit" value="Submit"></p>
+
+
+
+    </form>
+</body>
+</html>
