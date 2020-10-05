@@ -1,0 +1,23 @@
+#div1{
+    width: 60%;
+    padding-left: 20%;
+}
+h2{
+    background-color: red;
+    text-align: center;
+
+}
+h1{
+    background-color: cyan;
+}
+#label{
+    color: blue;
+}
+#hobbies{color: coral;}
+#div2{
+    background-color:yellowgreen;
+    width: 70%;
+}
+#dangky{
+    margin-left: 70px;
+}
