@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM LẤY SURVEY KHÁCH HÀNG</title>
+    <link rel="stylesheet" href="getsurvey.css" type="text/css">
 </head>
 <body>
     <h1>Market Research Survey</h1>
@@ -50,10 +51,80 @@
     <label for="">Dollar</label> <label for="">Cents</label>
     <br>
     <p>What features would you like to see in the new product.</p>
-    <textarea name="comment" id="" cols="100" rows="10"></textarea>
+    <textarea name="comment" id="" cols="100" rows="10" name="x"></textarea>
+    <br>
+
     <p>Please rate your level of agreement with the following statements.
     </p>
-    <!--TẠO BẢNG + RADIO-->
+    
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>Strongly Disagree</td>
+                <td>Disagree</td>
+                <td>Agree</td>
+                <td>Strongly Agree</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><label id="Field-" for="Field1">
+                    Our produc are prices fairly
+                  </label></th>
+                <td><input id="Field_1" name="Field1" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree" >
+                    <label for="Field_1">1</label>
+                </td>
+                  <td><input id="Field_2" name="Field1" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_2">2</label>
+                </td>
+                  <td><input id="Field_3" name="Field1" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_3">3</label>
+                </td>
+                  <td><input id="Field_4" name="Field1" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_4">4</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label id="Field-" for="Field1">
+                    Our produc are high quality
+                  </label></th>
+                <td><input id="Field_1" name="Field2" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree" >
+                    <label for="Field_1">1</label>
+                </td>
+                  <td><input id="Field_2" name="Field2" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_2">2</label>
+                </td>
+                  <td><input id="Field_3" name="Field2" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_3">3</label>
+                </td>
+                  <td><input id="Field_4" name="Field2" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_4">4</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label id="Field-" for="Field1">
+                    You would recommend our product to a friend or coworker.
+                  </label></th>
+                <td><input id="Field_1" name="Field3" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree" >
+                    <label for="Field_1">1</label>
+                </td>
+                  <td><input id="Field_2" name="Field3" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_2">2</label>
+                </td>
+                  <td><input id="Field_3" name="Field3" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_3">3</label>
+                </td>
+                  <td><input id="Field_4" name="Field3" type="radio" role="radio" tabindex="0" aria-checked="false" value="Strongly Disagree">
+                    <label for="Field_4">4</label>
+                </td>
+            </tr>
+        </tbody>
+        
+        <tr>
+
+        </tr>
+    </table>
     <input type="submit" name="submit" value="Submit">
     </form>
     
