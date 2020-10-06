@@ -1,0 +1,41 @@
+body{
+    padding: 50px;
+}
+#table1{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+td,tr,th{
+    border: black 1px solid;
+}
+caption{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    
+}
+h1{text-align: center;}
+#contain{
+    width: 570px;
+    height: 60px;
+    color:blue;
+    
+}
+#divleft{
+    float: left;
+}
+#divright{
+    float: left;
+    text-align: right;
+    padding-left:200px;
+ 
+}
+#table2{ border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+
+}
+
+#days{background-color: yellow;}
+#a{background-color: orangered;}
