@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ỨNG DỤNG CHUYỂN ĐỔI TIỀN TỆ</title>
+    
+</head>
+<body>
+    <form action="convertMoney.html" method="GET" name="convertM">
+        <table>
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td> <input  type="number" name="amount" value="" id="a"> </td>
+                <td> <select name="type" id="">
+                    <option value="1"> VND</option>
+                    <option value="2"> USD </option>
+                </select>
+                    
+                </td>
+                <td>
+                    <select name="type" id="">
+                        <option value="1"> VND</option>
+                        <option value="2"> USD </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="button" name="" value="convert" onclick="convertM()"> 
+                </td>
+            </tr>
+            
+        </table>
+        <script src="convertMoney.js"></script>
+    </form>
+    
+</body>
+</html>
